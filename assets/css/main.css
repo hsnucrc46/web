@@ -105,20 +105,10 @@ input, select, textarea {
  cover;
 		background-attachment: fixed,
  fixed;
+		position: fixed;
 		background-position-x: center,
  center;
  background-position-y: center, 85%;
-	}
-
-	.bg {
-		background: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg") no-repeat;
-		background-size: cover;
-		-webkit-background-size: cover;
-		background-position-x: center, center;
-		background-position-y: center, 85%;
-		position: fixed;
-		/* height: 100%;
-		width: 100%; */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3486,6 +3476,7 @@ input, select, textarea {
 				cover;
  				background-attachment: fixed,
  fixed;
+ position: fixed;
 				background-position-x: center,
  center;
  background-position-y: center, 85%;
@@ -3602,6 +3593,7 @@ input, select, textarea {
 			cover;
  			background-attachment: fixed,
  fixed;
+ position: fixed;
 			background-position-x: center,
 center;
 			background-position-y: center, 85%;
