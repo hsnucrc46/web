@@ -136,7 +136,7 @@ input, select, textarea {
 	@supports not (background-attachment: fixed) {
 		.bg {
 			background-color: #2e3141;
-				background: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+				background: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg") !important;
 				background-size: cover,
 		cover;
 				position: fixed;
