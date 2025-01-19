@@ -105,7 +105,6 @@ input, select, textarea {
  cover;
 		background-attachment: fixed,
  fixed;
-		position: fixed;
 		background-position-x: center,
  center;
  background-position-y: center, 85%;
@@ -3476,7 +3475,6 @@ input, select, textarea {
 				cover;
  				background-attachment: fixed,
  fixed;
- position: fixed;
 				background-position-x: center,
  center;
  background-position-y: center, 85%;
@@ -3593,7 +3591,6 @@ input, select, textarea {
 			cover;
  			background-attachment: fixed,
  fixed;
- position: fixed;
 			background-position-x: center,
 center;
 			background-position-y: center, 85%;
