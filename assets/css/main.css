@@ -100,14 +100,11 @@ input, select, textarea {
 
 	body {
 		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-		background-size: cover,
- cover;
-		background-attachment: fixed,
- fixed;
-		background-position-x: center,
- center;
- background-position-y: center, 85%;
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg") !important;
+		background-size: cover, cover !important;
+		background-attachment: fixed, fixed !important;
+		background-position-x: center, center !important;
+		background-position-y: center, 85% !important;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3470,14 +3467,11 @@ input, select, textarea {
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-				background-size: cover,
-				cover;
- 				background-attachment: fixed,
- fixed;
-				background-position-x: center,
- center;
- background-position-y: center, 85%;
+				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg") !important;
+				background-size: cover, cover !important;
+				background-attachment: fixed, fixed !important;
+				background-position-x: center, center !important;
+				background-position-y: center, 85% !important;
 				margin-bottom: -6.5em;
 			}
 
@@ -3586,14 +3580,11 @@ input, select, textarea {
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-			background-size: cover,
-			cover;
- 			background-attachment: fixed,
- fixed;
-			background-position-x: center,
-center;
-			background-position-y: center, 85%;
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg") !important;
+			background-size: cover, cover !important;
+			background-attachment: fixed, fixed !important;
+			background-position-x: center, center !important;
+			background-position-y: center, 85% !important;
 			margin-bottom: -6.5em;
 		}
 
