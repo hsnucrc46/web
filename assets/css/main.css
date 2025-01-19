@@ -74,6 +74,19 @@ input, select, textarea {
 
 /* Basic */
 
+@supports not (background-attachment: fixed) {
+	.bg {
+		background-color: #2e3141;
+			background: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-size: cover,
+	cover;
+			position: fixed;
+			background-position-x: center,
+	center;
+	background-position-y: center, 85%;
+	z-index: -1;
+	}
+}
 	@-ms-viewport {
 		width: device-width;
 	}
@@ -99,12 +112,17 @@ input, select, textarea {
 	}
 
 	body {
-		/* background-color: #2e3141; */
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg") !important;
-		background-size: cover, cover !important;
-		background-attachment: fixed, fixed !important;
-		background-position-x: center, center !important;
-		background-position-y: center, 85% !important;
+		@supports (background-attachment: fixed) {
+			background-color: #2e3141;
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-size: cover,
+	cover;
+			background-attachment: fixed,
+	fixed;
+			background-position-x: center,
+	center;
+	background-position-y: center, 85%;
+		}
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3465,14 +3483,19 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#banner {
+				@supports (background-attachment: fixed) {
 				padding: 7em 0 8.25em 0 ;
-				/* background-color: #2e3141; */
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg") !important;
-				background-size: cover, cover !important;
-				background-attachment: fixed, fixed !important;
-				background-position-x: center, center !important;
-				background-position-y: center, 85% !important;
+				background-color: #2e3141;
+				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+				background-size: cover,
+				cover;
+ 				background-attachment: fixed,
+ fixed;
+				background-position-x: center,
+ center;
+ background-position-y: center, 85%;
 				margin-bottom: -6.5em;
+				}
 			}
 
 		}
@@ -3578,14 +3601,19 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		#wrapper > header {
+			@supports (background-attachment: fixed) {
 			padding: 9em 0 6.25em 0 ;
-			/* background-color: #2e3141; */
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg") !important;
-			background-size: cover, cover !important;
-			background-attachment: fixed, fixed !important;
-			background-position-x: center, center !important;
-			background-position-y: center, 85% !important;
+			background-color: #2e3141;
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-size: cover,
+			cover;
+ 			background-attachment: fixed,
+ fixed;
+			background-position-x: center,
+center;
+			background-position-y: center, 85%;
 			margin-bottom: -6.5em;
+			}
 		}
 
 	}
