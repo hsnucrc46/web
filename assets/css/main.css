@@ -23,11 +23,13 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;}
+	display: block;
+}
 
 body {
 	line-height: 1;
@@ -244,7 +246,6 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
 		font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-		/* font-family: Raleway, Helvetica, sans-serif; */
 		font-weight: 700;
 		letter-spacing: 0.1em;
 		margin: 0 0 1em 0;
@@ -3445,7 +3446,6 @@ input, select, textarea {
 			-ms-filter: blur(0);
 			filter: blur(0);
 			opacity: 1;
-			/* font-family: Raleway, Helvetica, sans-serif; */
 			font-family: 'Open Sans', sans-serif, Arial, Helvetica;
 			font-size: 1em;
 			font-weight: 600;
@@ -3552,7 +3552,6 @@ input, select, textarea {
 		}
 
 		#wrapper > header p {
-			/* font-family: Raleway, Helvetica, sans-serif; */
 			font-family: 'Open Sans', sans-serif, Arial, Helvetica;
 			font-size: 1em;
 			font-weight: 400;
@@ -4023,7 +4022,6 @@ input, select, textarea {
 		#footer .inner .copyright {
 			border-top: solid 2px rgba(255, 255, 255, 0.125);
 			list-style: none;
-			/* margin: 4em 0 2em 0; */
 			padding: 2em 0 0 0;
 			width: 100%;
 		}
@@ -4052,12 +4050,6 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		#footer {
-			/* background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-			background-size: auto,
- cover;
-			background-position: center,
- center; */
 			margin-top: -6.5em;
 			padding-top: 6.5em;
 		}
@@ -4086,11 +4078,6 @@ input, select, textarea {
 					width: 100%;
 					margin: 0 0 4em 0;
 				}
-
-				/* #footer .inner .copyright {
-					margin: 4em 0 2em 0;
-				} */
-
 	}
 
 	@media screen and (max-width: 736px) {
